@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #202124;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+}
+
+.container{
+    width: 750px;
+    margin: 35px auto;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.left-area{
+    width: 60%;
+    float: left;
+}
+
+.account-box{
+    padding: 27px 40px 36px;
+    width: 100%;
+    border: 1px solid #dadce0;
+    border-radius: 8px; 
+    box-shadow: rgba(0, 0, 0, 0.3);                   
+}
+
+.google-logo img{
+    width: 89px;
+}
+
+.account-heading p{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+form{
+    width: 100%;
+}
+
+form input{
+    padding: 10px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    margin-top: 27px;
+    margin-right: 5px;
+}
+
+.email input{
+    width: 364px;
+}
+
+form p{
+    color: #5f6368;
+    font-size: 13px;
+    margin: 5px 0 18px 10px;
+}
+
+.btn{
+    margin-bottom: 16px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.checkbox input{
+    margin: 0;
+}
+
+.checkbox p{
+    color: #202124;
+    font-size: 14px
+}
+
+
+.side-logo{
+    margin: 90px auto;
+}
+
+.side-logo img{
+    width: 100%;
+}
+
+
+.right-area{
+    width: 40%;
+    float: right;
+}
+
+.sign{
+    float: left;
+}
+
+
+.sign a{
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.button-next{
+    margin: -18px 0;
+}
+.button-next button{
+    float: right;
+    background-color: #1a73e8;
+    padding: 11px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.button-next a{
+    text-decoration: none;
+}
+
