@@ -1,52 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    color: #202124;
-    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+body {
+    font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
 }
 
-.container{
-    width: 750px;
+.main-container {
+    width: 805px;
     margin: 35px auto;
 }
 
-.clearfix{
-    content: "";
-    display: table;
-    clear: both;
-
-}
-
-.left-area{
-    width: 60%;
-    float: left;
-}
-
-.account-box{
-    padding: 27px 40px 36px;
-    width: 100%;
+.container {
+    /* width: 100%; */
     border: 1px solid #dadce0;
-    border-radius: 8px; 
-    box-shadow: rgba(0, 0, 0, 0.3);                   
+    border-radius: 8px;
 }
 
-.google-logo img{
+.left-area {
+    margin: 36px 0 20px 55px;
+}
+
+.side-logo{
+    width: 300px;
+    float: right;
+    margin: 90px 24px;
+}
+.google-logo img {
     width: 89px;
 }
 
-.account-heading p{
+form{
+    margin-bottom: 60px;
+}
+
+
+.heading p{
     font-weight: 400;
     font-size: 24px;
 }
 
-form{
-    width: 100%;
+form p {
+    color: #5f6368;
+    font-size: 13px;
+    margin: 5px 0 18px 10px;
 }
 
-form input{
+form input {
     padding: 10px;
     border: 1px solid #dadce0;
     border-radius: 4px;
@@ -58,43 +59,13 @@ form input{
     width: 364px;
 }
 
-form p{
-    color: #5f6368;
-    font-size: 13px;
-    margin: 5px 0 18px 10px;
-}
-
-.btn{
+.btn {
     margin-bottom: 16px;
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
     color: #1a73e8;
-}
-
-.checkbox input{
-    margin: 0;
-}
-
-.checkbox p{
-    color: #202124;
-    font-size: 14px
-}
-
-
-.side-logo{
-    margin: 90px auto;
-}
-
-.side-logo img{
-    width: 100%;
-}
-
-
-.right-area{
-    width: 40%;
-    float: right;
 }
 
 .sign{
@@ -108,10 +79,9 @@ form p{
 }
 
 .button-next{
-    margin: -18px 0;
+    margin: 0 317px;
 }
 .button-next button{
-    float: right;
     background-color: #1a73e8;
     padding: 11px;
     border: none;
@@ -125,3 +95,12 @@ form p{
     text-decoration: none;
 }
 
+footer{
+    line-height: 60px;
+    background-color: #1a73e8;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 5px;
+}
